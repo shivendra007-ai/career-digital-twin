@@ -1,0 +1,16 @@
+streamlit
+pdfplumber
+python-dotenv
+requests
+scikit-learn
+pandas
+ollama
+apscheduler
+requests
+openai
+openai-agents
+gradio
+pypdf
+'''python -m venv venv
+source venv/bin/activate    # Windows: venv\Scripts\activate
+pip install -r requirements.txt'''

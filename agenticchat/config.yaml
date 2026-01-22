@@ -1,0 +1,217 @@
+cookie:
+  expiry_days: 30
+  key: <A_SECRET_RANDOM_KEY>
+  name: career_twin_cookie
+credentials:
+  usernames:
+    mukesh:
+      analysis_result:
+        best_job_titles:
+        - Market Research Analyst
+        - Digital Marketing Specialist
+        - Social Media Manager
+        career_path_summary: Results-driven marketing manager with 10+ years of experience
+          in strategy, team leadership, and campaign execution. Proven track record
+          of driving business growth through effective market research, content creation,
+          and digital marketing efforts.
+        suggested_skills:
+        - Data Analysis
+        - Content Creation
+        - Social Media Marketing
+        - SEO Strategy
+        - Team Collaboration
+        top_skills_matched:
+        - Project Management
+        - Public Relations
+        - Leadership
+        - Effective Communication
+        - Critical Thinking
+      email: dicepe9121@canvect.com
+      first_name: mukesh
+      last_name: Mukesh
+      logged_in: false
+      password: $2b$12$OtiBSAe0itwftKafgLqSJeMazwEkY.E73D.vZP/lEiEyQKl1YK.5W
+      password_hint: mukesh
+      recommended_jobs:
+      - company: FutureTech Solutions
+        description: Seeking a developer skilled in Python, LangGraph, and multi-agent
+          systems. You will build and deploy autonomous agents for our clients. Must
+          have experience with Ollama and local LLMs.
+        title: AI Agent Developer (Remote)
+      - company: InnovaCore AI
+        description: InnovaCore is looking for a Data Scientist to fine-tune and evaluate
+          new LLMs. Requires deep knowledge of PyTorch, model quantization, and prompt
+          engineering.
+        title: Data Scientist - LLM Research
+      - company: ConnectSphere
+        description: We are hiring a backend engineer to build the infrastructure
+          for our AI chatbots. Strong skills in Python, FastAPI, and database management
+          are required. Experience with Streamlit is a plus.
+        title: Python Backend Engineer (AI Platforms)
+      - company: FutureTech Solutions
+        description: Seeking a developer skilled in Python, LangGraph, and multi-agent
+          systems. You will build and deploy autonomous agents for our clients. Must
+          have experience with Ollama and local LLMs.
+        title: AI Agent Developer (Remote)
+      - company: InnovaCore AI
+        description: InnovaCore is looking for a Data Scientist to fine-tune and evaluate
+          new LLMs. Requires deep knowledge of PyTorch, model quantization, and prompt
+          engineering.
+        title: Data Scientist - LLM Research
+      - company: ConnectSphere
+        description: We are hiring a backend engineer to build the infrastructure
+          for our AI chatbots. Strong skills in Python, FastAPI, and database management
+          are required. Experience with Streamlit is a plus.
+        title: Python Backend Engineer (AI Platforms)
+      - company: FutureTech Solutions
+        description: Seeking a developer skilled in Python, LangGraph, and multi-agent
+          systems. You will build and deploy autonomous agents for our clients. Must
+          have experience with Ollama and local LLMs.
+        title: AI Agent Developer (Remote)
+      - company: InnovaCore AI
+        description: InnovaCore is looking for a Data Scientist to fine-tune and evaluate
+          new LLMs. Requires deep knowledge of PyTorch, model quantization, and prompt
+          engineering.
+        title: Data Scientist - LLM Research
+      - company: ConnectSphere
+        description: We are hiring a backend engineer to build the infrastructure
+          for our AI chatbots. Strong skills in Python, FastAPI, and database management
+          are required. Experience with Streamlit is a plus.
+        title: Python Backend Engineer (AI Platforms)
+      roles: null
+    shivendra:
+      analysis_result:
+        best_job_titles:
+        - Backend Developer
+        - Data Scientist
+        - Software Engineer
+        career_path_summary: Back-end web development, machine learning engineering,
+          or data science engineering
+        suggested_skills:
+        - Python
+        - JavaScript
+        - HTML/CSS
+        top_skills_matched:
+        - C++
+        - Machine Learning
+        - SQL
+        - Data Structures
+        - Algorithms
+      chat_history:
+      - content: "\u2705 Analysis Complete! I've built your digital career twin, Shivendra\
+          \ Kushwaha. **Your summary is:** *Back-end web development, machine learning\
+          \ engineering, or data science engineering*.\n\nYou can now ask me questions\
+          \ about it."
+        role: assistant
+      - content: can you tell how to learn DSA
+        role: user
+      - content: "To learn Data Structures and Algorithms (DSA), here's a step-by-step\
+          \ plan tailored just for you:\n\n**Phase 1: Build Foundation (2-4 weeks)**\n\
+          \n1. **Get familiar with basics**:\n\t* Understand the different types of\
+          \ data structures (arrays, linked lists, stacks, queues, trees, graphs).\n\
+          \t* Learn basic concepts like sorting, searching, and graph traversal.\n\
+          2. **Learn a programming language**:\n\t* Focus on C++, Python, or Java\
+          \ as they are commonly used in coding challenges.\n3. **Practice with online\
+          \ resources**:\n\t* GeeksforGeeks (GFG) is an excellent starting point for\
+          \ learning DSA concepts.\n\n**Phase 2: Advanced Data Structures and Algorithms\
+          \ (8-12 weeks)**\n\n1. **Master data structures**:\n\t* Learn to solve problems\
+          \ on arrays, linked lists, stacks, queues, trees, graphs.\n\t* Understand\
+          \ advanced data structures like heaps, segment trees, and splay trees.\n\
+          2. **Focus on algorithms**:\n\t* Dive into sorting (e.g., merge sort, quicksort),\
+          \ searching, and graph traversal algorithms.\n3. **Practice with platforms\
+          \ like**:\n\t* HackerRank\n\t* LeetCode\n\t* CodeForces\n\n**Phase 3: Review\
+          \ and Prepare for Interviews (4-6 weeks)**\n\n1. **Review and refine your\
+          \ skills**:\n\t* Focus on weak areas or topics that need improvement.\n\
+          2. **Prepare common interview questions**:\n\t* Learn to solve typical problems\
+          \ that come up during coding interviews.\n3. **Practice whiteboarding sessions**:\n\
+          \t* Improve your ability to write clean, readable code under time pressure.\n\
+          \n**Tips and Recommendations**\n\n1. **Join online communities**:\n\t* Participate\
+          \ in forums like Reddit's r/algorithms, r/learncoding, and Stack Overflow.\n\
+          2. **Work with a study group or mentor**:\n\t* Collaborative learning can\
+          \ help you stay motivated and focused.\n3. **Set realistic goals and milestones**:\n\
+          \t* Break your learning journey into smaller chunks to maintain momentum.\n\
+          \nStay consistent, Shivendra! Learning DSA takes time and effort. You got\
+          \ this!\n\n(Note: These phases are an estimate and may vary depending on\
+          \ individual schedules and progress.)"
+        role: assistant
+      - content: tell more about me
+        role: user
+      - content: 'Let''s dive deeper into your career aspirations and interests.
+
+
+          **From Backend Developer to Data Scientist or Software Engineer:**
+
+
+          Your **best_job_titles** suggest you have experience in backend development,
+          which is great! You''ve also mentioned **machine learning engineering**,
+          which indicates your interest in leveraging technical skills to drive data-driven
+          decision-making. Your career path summary emphasizes **back-end web development,
+          machine learning engineering, or data science engineering**.
+
+
+          This diverse combination of interests and skills points towards a potential
+          role that combines:
+
+
+          1. Technical expertise: You already have an established background in backend
+          development.
+
+          2. Analytical focus: Machine learning engineer roles involve applying analytical
+          techniques to drive innovation.
+
+          3. Data-driven decision-making: With a passion for data-driven decision-making,
+          software engineering might be the perfect fit.
+
+
+          **Top_skills_matched highlights your strengths:**
+
+
+          The skills you''ve matched to your top job titles, such as **C++**, **Machine
+          Learning**, **SQL**, and **Data Structures**, demonstrate your proficiency
+          in:
+
+
+          1. Programming languages: C++ is widely used for high-performance applications.
+
+          2. Data analysis: SQL and data structures will be crucial in extracting
+          insights from various data sources.
+
+          3. Machine learning: With a focus on machine learning, you''re well-equipped
+          to tackle the complexities of this field.
+
+
+          **What''s next?**
+
+
+          Shivendra, considering your diverse interests and strong technical skills,
+          it might be beneficial to explore roles that combine:
+
+
+          1. Backend development (web applications)
+
+          2. Data analysis or visualization
+
+          3. Machine learning engineering
+
+
+          Keep in mind that these are just initial suggestions based on the provided
+          context. Your actual career journey may branch out in various exciting directions!
+
+
+          What do you think about this assessment, Shivendra?'
+        role: assistant
+      email: holyshiv01@gmail.com
+      first_name: Shivendra
+      last_name: Kushwaha
+      logged_in: false
+      password: $2b$12$1ilFdT/EyNfd3AN9V9CO5uQ9wfUiWWCIbjw8Yp4L3TLCIdo6Qb6iq
+      password_hint: shivendra
+      roles: null
+    user1:
+      email: user1@example.com
+      name: User One
+      password: $2b$12$mcGtliShBR/k9mTapYDz..49MAtl.A6aObhwxjrusNrOl5deyWSu2
+    user2:
+      email: user2@example.com
+      name: User Two
+      password: $2b$12$8MO4Yn3hH5jY/iHQGdSBv.uBmEadxoN02Ef6jg1AfNHBfsHJXkp9.
