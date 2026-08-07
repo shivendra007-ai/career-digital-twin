@@ -1,51 +1,101 @@
-Career Digital Twin
-An autonomous AI Career Agent designed to parse resumes and generate structured career paths. This project provides personalized career strategy and job automation through an intelligent, agentic workflow.
+# Career Digital Twin 🧠
 
-Overview
-The Career Digital Twin is an agentic AI application that leverages local large language models to provide actionable, data-driven career guidance. By analyzing user inputs and generating customized strategies, it serves as a personal advisor for navigating professional growth.
+An autonomous AI career agent that acts as your **digital twin** — analyzing your profile, tracking job market signals, and generating personalized career strategy, all through an interactive chat interface.
 
-Features
-Resume Parsing: Intelligently extracts relevant skills, experiences, and educational background from resumes.
+Built with **LangGraph**, **Ollama (Llama 3.2)**, and **Streamlit**.
 
-Structured Career Paths: Generates step-by-step progressions and milestones tailored to individual professional goals.
+---
 
-Personalized Strategy: Delivers customized advice and feedback based on the user's specific profile and target industry.
+## Overview
 
-Job Automation: Streamlines the job discovery process and application strategies.
+Career Digital Twin is an agentic AI system designed to automate and personalize the job search process. Instead of manually tailoring resumes, tracking applications, and researching roles, this agent acts as a persistent "digital twin" that understands your background and helps you make faster, more informed career decisions.
 
-Tech Stack
-LangGraph: Orchestrates the multi-agent workflow and logical routing.
+The system uses **LangGraph** to orchestrate multi-step agentic workflows — chaining together reasoning, tool calls, and memory — powered by a locally-run **Llama 3.2** model via **Ollama**, with a **Streamlit** front end for interaction.
 
-Ollama (Llama 3.2): Serves as the local large language model powering the AI reasoning.
+---
 
-Streamlit: Provides an interactive, user-friendly frontend interface.
+## Features
 
-Python: Core programming language.
+- 🤖 **Agentic reasoning** — LangGraph-based workflow for multi-step career decision-making
+- 💬 **Conversational interface** — Streamlit chat UI for natural interaction with your digital twin
+- 🧩 **Local LLM inference** — runs on Llama 3.2 via Ollama, no external API dependency required
+- 📄 **Career strategy generation** — personalized guidance based on your profile and goals
+- ⚙️ **Job automation workflows** — streamlines repetitive parts of the job search process
 
-Getting Started
-Prerequisites
-Python 3.8+
+*(Update this list with the specific capabilities your agent currently supports — e.g. resume parsing, job matching, application tracking, etc.)*
 
-Ollama installed locally.
+---
 
-Ensure the Llama 3.2 model is pulled via Ollama:
+## Tech Stack
 
-Bash
-ollama run llama3.2
-Installation
-Clone the repository:
+| Component | Technology |
+|---|---|
+| Agent orchestration | LangGraph |
+| LLM | Llama 3.2 (via Ollama) |
+| Frontend | Streamlit |
+| Language | Python |
 
-Bash
-git clone https://github.com/shivendra007-ai/career-digital-twin.git
-cd career-digital-twin
-Install the required dependencies:
+---
 
-Bash
-pip install -r requirements.txt
-Configure your environment variables by adding the necessary API keys or local configurations to your .env file.
+## Getting Started
 
-Usage
-Launch the application using Streamlit:
+### Prerequisites
 
-Bash
-streamlit run agenticchat/app.py
+- Python 3.10+
+- [Ollama](https://ollama.com) installed locally, with the Llama 3.2 model pulled:
+  ```bash
+  ollama pull llama3.2
+  ```
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/shivendra007-ai/career-digital-twin.git
+   cd career-digital-twin
+   ```
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up environment variables
+   Create a `.env` file in the root directory with the required keys (see `.env.example` if available).
+
+4. Run the app
+   ```bash
+   streamlit run agenticchat/app.py
+   ```
+   *(Adjust the entry-point path to match your actual file structure)*
+
+---
+
+## Project Structure
+
+```
+career-digital-twin/
+├── agenticchat/        # Core agent logic and Streamlit app
+├── .env                # Environment variables (not committed)
+├── requirements.txt    # Python dependencies
+└── README.md
+```
+
+---
+
+## Roadmap
+
+- [ ] Resume parsing and skill extraction
+- [ ] Job posting scraping and matching
+- [ ] Application tracking dashboard
+- [ ] Multi-agent workflow for research + drafting + review
+
+
+
+---
+
+## Author
+
+**Shivendra**
+B.Tech ECE, Jaypee Institute of Information Technology, Noida
+
