@@ -78,5 +78,4 @@ career-digital-twin/
 
 ## 👨‍💻 Author
 **Shivendra Kushwaha**  
-B.Tech Electronics and Communication Engineering (2023–2027)  
-Jaypee Institute of Information Technology
+
